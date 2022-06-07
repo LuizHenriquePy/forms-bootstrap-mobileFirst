@@ -3,7 +3,7 @@
   background-color: rgb(50, 167, 145);
 }
 
-.trybewarts-login {
+header .trybewarts-login {
   display: flex;
 }
 
@@ -11,7 +11,7 @@ main {
   display: flex;
 }
 
-#evaluation-form {
+main #evaluation-form {
   display: flex;
   flex-direction: column;
   width: 675px;

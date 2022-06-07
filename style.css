@@ -20,6 +20,11 @@ main #evaluation-form {
 main #div-eval-form {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
+}
+
+main #div-eval-form input , main #div-eval-form select {
+  margin-top: 15px;
 }
 
 main #div-eval-form #input-name {
@@ -27,6 +32,15 @@ main #div-eval-form #input-name {
 }
 
 main #div-eval-form #input-lastname {
+  width: 45%;
+  margin-left: 3%;
+}
+
+main #div-eval-form #input-email {
+  width: 45%;
+}
+
+main #div-eval-form #house {
   width: 45%;
   margin-left: 3%;
 }

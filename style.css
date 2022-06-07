@@ -48,3 +48,7 @@ main #div-eval-form #house {
 main #trybewarts-forms-logo {
   height: 500px;
 }
+
+main #div-eval-form-rate {
+  display: flex;
+}

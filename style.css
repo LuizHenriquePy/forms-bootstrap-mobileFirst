@@ -17,6 +17,20 @@ main #evaluation-form {
   width: 675px;
 }
 
+main #div-eval-form {
+  display: flex;
+  justify-content: center;
+}
+
+main #div-eval-form #input-name {
+  width: 45%;
+}
+
+main #div-eval-form #input-lastname {
+  width: 45%;
+  margin-left: 3%;
+}
+
 main #trybewarts-forms-logo {
   height: 500px;
 }

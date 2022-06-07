@@ -12,3 +12,11 @@ function getValues() {
 
 const headerButton = document.getElementById('header-button');
 headerButton.addEventListener('click', getValues);
+
+const checkbox = document.getElementById('agreement');
+checkbox.addEventListener('change', () => {
+  if (checkbox.checked) {
+    const buttonSumit = document.getElementById('submit-btn');
+    buttonSumit.disabled = false;
+  }
+});

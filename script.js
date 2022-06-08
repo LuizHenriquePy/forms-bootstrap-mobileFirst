@@ -19,4 +19,8 @@ checkbox.addEventListener('change', () => {
     const buttonSumit = document.getElementById('submit-btn');
     buttonSumit.disabled = false;
   }
+  else {
+    const buttonSumit = document.getElementById('submit-btn');
+    buttonSumit.disabled = true;
+  }
 });

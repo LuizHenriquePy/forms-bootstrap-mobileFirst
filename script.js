@@ -13,14 +13,12 @@ function getValues() {
 const headerButton = document.getElementById('header-button');
 headerButton.addEventListener('click', getValues);
 
+const submitButton = document.getElementById('submit-btn');
 const checkbox = document.getElementById('agreement');
 checkbox.addEventListener('change', () => {
   if (checkbox.checked) {
-    const buttonSumit = document.getElementById('submit-btn');
-    buttonSumit.disabled = false;
-  }
-  else {
-    const buttonSumit = document.getElementById('submit-btn');
-    buttonSumit.disabled = true;
+    submitButton.disabled = false;
+  } else {
+    submitButton.disabled = true;
   }
 });

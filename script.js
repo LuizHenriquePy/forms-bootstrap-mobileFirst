@@ -99,3 +99,12 @@ submitButton.addEventListener('click', (event) => {
   createForm(container);
   container.firstElementChild.style.display = 'none';
 });
+
+const counterSelector = document.getElementById('counter');
+let maxChars = 500;
+
+counterSelector.innerHTML = maxChars;
+document.getElementById('textarea').addEventListener('input', () => {
+  maxChars = 500 - document.getElementById('textarea').value.length;
+  counterSelector.innerHTML = maxChars;
+});
